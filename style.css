@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background: url(imagens/painting-vincent-van-gogh-abstract-the-starry-night-wallpaper.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Lugrasimo", cursive;
+}
+
+header {
+   
+
+    background-color: rgba(19, 100, 231, 0.488);
+    border-radius: 0px 0px 100px 100px ;
+
+    max-width: 90vw;
+    padding: 10px;
+    transform: translate(4%);
+}
+
+h1 {
+    text-align: center;
+    font-size: 9vh;
+    color: rgb(255, 247, 0);
+    text-shadow: 1px 1px 1px black;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.3vh;
+}
+
+section p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 238, 0);
+    text-shadow: 1px 1px 1px black;
+}
+
+section.imagem {
+    background-color: rgb(47, 46, 46);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.518);
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.368);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url(imagens/foto01.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+}
